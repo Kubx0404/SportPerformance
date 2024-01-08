@@ -1,0 +1,35 @@
+.content_mission {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+.photo_main {
+  width: 45%;
+  height: fit-content;
+}
+.main {
+  display: flex;
+}
+.mission_title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.mission_description {
+  font-size: 24px;
+  color: #000;
+  text-align: justify;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 150% */
+}
+.text_container {
+  /* padding: 111px 79px 168px 75px; */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 30em;
+}

@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Mokoto";
+  src: url("../fonts/MokotoFont/mokoto-glitch.otf") format("otf"),
+    url("../fonts/MokotoFont/mokoto-glitch.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.navigationDesktop {
+  padding: 10px;
+}
+.navButton {
+  all: unset;
+  padding: 8px;
+  font-family: Mokoto;
+  color: var(--Interactive-Pressed, #103262);
+  font-size: 16px;
+}
+nav a {
+  text-decoration: none;
+  font-family: Mokoto;
+  color: var(--Interactive-Pressed, #103262);
+  padding: 8px;
+}
+
+/* @font-face {
+  font-family: "Mokoto";
+  src: url("fonts/MokotoFont/nunito-bold.woff2") format("woff2"),
+    url("fonts/MokotoFont/nunito-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+} */
+
+.header {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  box-shadow: 0px 2px 2px -1px rgba(0, 0, 0, 0.15);
+}
+.logo_header {
+  margin: 4px;
+}
+.main {
+  background-image: url("../images/logo_background.svg");
+
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 90%;
+  background-size: contain;
+}
