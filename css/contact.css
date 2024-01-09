@@ -1,0 +1,38 @@
+.contact_title {
+  margin: 0;
+  text-align: center;
+  padding: 60px;
+}
+.icon_and_number {
+  display: flex;
+}
+.icon_and_number img {
+  padding: 5px;
+}
+.contact_phone_container {
+  display: flex;
+  justify-content: space-between;
+}
+.contact_phone_container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.map_and_address_container {
+  display: flex;
+  margin: 30px 0 50px 0;
+}
+.address_container {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.localization_title {
+  margin-left: 10px;
+  /* margin-bottom: 0; */
+}
+.localization_container {
+  margin-top: 100px;
+}
+.contact_and_localization_container {
+  margin: 60px 20vw 40px 20vw;
+}

@@ -90,3 +90,6 @@ input[type="reset"] {
 input[type="button"] {
   cursor: pointer;
 }
+.uppercase {
+  text-transform: uppercase;
+}
