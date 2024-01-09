@@ -1,0 +1,43 @@
+body {
+  height: auto;
+}
+.proteges_title {
+  text-align: center;
+  padding: 60px;
+  margin: 0;
+}
+.shields_container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+
+.item {
+  width: auto;
+  height: 250px;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+.shields_container {
+  width: 100%;
+}
+.main {
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-bottom: 40px;
+  background-size: auto;
+}
+
+/* .shields_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.item {
+  flex: 1 1 calc(16.66% - 10px); 
+  height: auto;
+  width: 100px;
+} */
