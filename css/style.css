@@ -64,3 +64,29 @@ nav a {
 .menu_underlined {
   text-decoration: underline;
 }
+.description_text {
+  color: #000;
+  text-align: justify;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+/* input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+} */
+input[type="button"] {
+  cursor: pointer;
+}
