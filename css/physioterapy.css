@@ -1,4 +1,4 @@
-.content_mission {
+.content_physioterapy {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -6,18 +6,18 @@
   margin-right: 10vw;
   width: 100%;
 }
-.photo_main_mission {
-  width: 45%;
+.photo_main_physioterapy {
+  width: 30%;
   height: fit-content;
 }
 .main {
   display: flex;
 }
-.mission_title {
+.physioterapy_title {
   margin-bottom: 30px;
   text-align: center;
 }
-.mission_description {
+.physioterapy_description {
   font-size: 24px;
   color: #000;
   text-align: justify;

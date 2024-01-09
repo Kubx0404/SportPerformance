@@ -51,9 +51,11 @@ nav a {
 }
 .main {
   background-image: url("../images/logo_background.svg");
-
   background-repeat: no-repeat;
   background-position: center top;
   height: 90%;
   background-size: contain;
+}
+.menu_underlined {
+  text-decoration: underline;
 }
