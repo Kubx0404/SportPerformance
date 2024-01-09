@@ -5,6 +5,7 @@ body {
   text-align: center;
   padding: 60px;
   margin: 0;
+  font-weight: 400;
 }
 .trainers_container {
   display: grid;
@@ -16,11 +17,8 @@ body {
 
 .item {
   width: auto;
-
   display: flex;
   flex-direction: column;
-  /* text-align: center;
-  justify-content: center; */
   margin: auto;
   padding: 10px;
 }
@@ -33,20 +31,9 @@ body {
 .trainer_photo {
   width: 100%;
 }
-@media screen and (max-width: 1060px) {
-  .trainers_container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media screen and (max-width: 700px) {
-  .trainers_container {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
 .trainer_button {
   color: white;
   border: 2px solid rgb(126, 126, 246);
-  /* border-spacing: 10px; */
   background-color: black;
   border-radius: 5px;
   width: fit-content;
@@ -62,4 +49,15 @@ body {
 }
 .item a {
   color: transparent;
+}
+
+@media screen and (max-width: 1060px) {
+  .trainers_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 700px) {
+  .trainers_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

@@ -2,6 +2,7 @@
   text-align: center;
   padding: 60px 60px 0 60px;
   margin: 0;
+  font-weight: 400;
 }
 .timetable_button {
   color: white;
@@ -20,13 +21,13 @@ table {
   border: 1px solid black;
   border-collapse: collapse;
   margin-bottom: 40px;
+  font-family: Lato;
 }
 table td,
 th {
   border: 1px solid black;
   text-align: center;
   width: 125px;
-
   height: 75px;
 }
 th {

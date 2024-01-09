@@ -1,8 +1,28 @@
-@font-face {
+/* @font-face {
   font-family: "Mokoto";
   src: url("../fonts/MokotoFont/mokoto-glitch.otf") format("otf"),
     url("../fonts/MokotoFont/mokoto-glitch.ttf") format("ttf");
   font-weight: 400;
+  font-style: normal;
+} */
+@font-face {
+  font-family: "Mokoto";
+  src: url("../fonts/MokotoFont/mokoto_glitch.otf") format("opentype"),
+    url("../fonts/MokotoFont/mokoto_glitch.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Bold.ttf") format("truetype");
+  font-weight: bold;
   font-style: normal;
 }
 * {
@@ -25,16 +45,19 @@ body {
   all: unset;
   padding: 8px;
   font-family: Mokoto;
-  color: var(--Interactive-Pressed, #103262);
+  color: black;
   font-size: 16px;
 }
 nav a {
   text-decoration: none;
-  font-family: Mokoto;
-  color: var(--Interactive-Pressed, #103262);
+  font-family: "Mokoto", sans-serif;
+  font-weight: 400;
+  color: black;
   padding: 8px;
 }
-
+.mokoto {
+  font-family: "Mokoto", sans-serif;
+}
 /* @font-face {
   font-family: "Mokoto";
   src: url("fonts/MokotoFont/nunito-bold.woff2") format("woff2"),
@@ -63,6 +86,7 @@ nav a {
 }
 .menu_underlined {
   text-decoration: underline;
+  color: var(--Interactive-Pressed, #103262);
 }
 .description_text {
   color: #000;

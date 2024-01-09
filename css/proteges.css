@@ -5,6 +5,7 @@ body {
   text-align: center;
   padding: 60px;
   margin: 0;
+  font-weight: 400;
 }
 .shields_container {
   display: grid;

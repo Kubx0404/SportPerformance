@@ -7,7 +7,7 @@
   width: 100%;
 }
 .photo_main_physioterapy {
-  width: 30%;
+  width: 20em;
   height: fit-content;
 }
 .main {
@@ -18,19 +18,18 @@
   text-align: center;
 }
 .physioterapy_description {
-  font-size: 24px;
   color: #000;
   text-align: justify;
   font-family: Lato;
   font-size: 24px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 36px; /* 150% */
+  font-weight: 100;
+  line-height: 36px;
 }
 .text_container {
   /* padding: 111px 79px 168px 75px; */
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  width: 30em;
+  width: 35em;
 }
