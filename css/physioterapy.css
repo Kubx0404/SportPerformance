@@ -12,6 +12,7 @@
 }
 .main {
   display: flex;
+  height: 90%;
 }
 .physioterapy_title {
   margin-bottom: 30px;
@@ -50,5 +51,70 @@
   }
   .main {
     padding: 60px 0px;
+  }
+}
+
+@media screen and (max-width: 1525px) {
+  .content_physioterapy {
+    margin: 0px 50px;
+  }
+}
+@media screen and (max-width: 1345px) {
+  .content_physioterapy {
+    flex-direction: column;
+  }
+  .main {
+    height: auto;
+    background-size: auto;
+  }
+  .photo_main_physioterapy {
+    padding-top: 0;
+  }
+  .physioterapy_title {
+    margin: 4em 0px 2.5em 0px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .main {
+    background-size: contain;
+  }
+}
+@media screen and (max-width: 800px) {
+  .physioterapy_title {
+    font-size: 1.2em;
+  }
+  .physioterapy_description {
+    font-size: 1.1em;
+  }
+  .photo_main_physioterapy {
+    width: 80vw;
+  }
+  .text_container {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .physio_button {
+    margin: 5vw;
+    padding: 0 5vw;
+  }
+}
+@media screen and (max-width: 490px) {
+  .physioterapy_title {
+    font-size: 0.9em;
+  }
+  .physioterapy_description {
+    font-size: 1em;
+  }
+  .photo_main_physioterapy {
+    width: 90vw;
+  }
+  .content_physioterapy {
+    margin: 0 5vw;
+  }
+}
+@media screen and (max-width: 370px) {
+  .physioterapy_title {
+    font-size: 0.7em;
   }
 }

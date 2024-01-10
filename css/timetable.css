@@ -27,6 +27,8 @@ th {
   text-align: center;
   width: 125px;
   height: 75px;
+  min-width: 125px;
+  min-height: 75px;
 }
 th {
   font-weight: normal;
@@ -39,4 +41,25 @@ tr td:first-child {
   flex-direction: column;
   align-items: center;
   height: fit-content;
+}
+@media screen and (max-width: 1120px) {
+  table {
+    align-self: flex-start;
+    margin: 40px 60px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .timetable_title {
+    font-size: 1.3em;
+  }
+}
+@media screen and (max-width: 530px) {
+  .timetable_title {
+    font-size: 1.1em;
+  }
+}
+@media screen and (max-width: 460px) {
+  .timetable_title {
+    font-size: 1.1em;
+  }
 }
