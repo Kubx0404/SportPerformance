@@ -33,6 +33,17 @@
   align-items: stretch;
   width: 35em;
 }
+.physio_button {
+  color: white;
+  border: 2px solid rgb(126, 126, 246);
+  border-spacing: 10px;
+  background-color: black;
+  border-radius: 5px;
+  height: 40px;
+  padding-right: 5em;
+  padding-left: 5em;
+  margin: 50px 100px;
+}
 @media screen and (max-height: 600px) {
   body {
     height: auto;
