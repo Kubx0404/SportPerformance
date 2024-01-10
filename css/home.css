@@ -1,5 +1,5 @@
 body {
-  height: auto;
+  height: 90vh;
 }
 .content_mission {
   display: flex;
@@ -10,7 +10,8 @@ body {
   width: 100%;
 }
 .photo_main_mission {
-  width: 45%;
+  width: 40em;
+  padding-top: 10em;
 }
 .main {
   display: flex;
@@ -38,4 +39,57 @@ body {
   flex-direction: column;
   align-items: stretch;
   width: 36em;
+}
+@media screen and (max-width: 1525px) {
+  .content_mission {
+    margin: 0px 50px;
+  }
+}
+@media screen and (max-width: 1345px) {
+  .content_mission {
+    flex-direction: column-reverse;
+  }
+  .main {
+    height: auto;
+    background-size: auto;
+  }
+  .photo_main_mission {
+    padding-top: 0;
+  }
+  .mission_title {
+    margin: 4em 0px 2.5em 0px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .mission_title {
+    font-size: 1.2em;
+  }
+  .mission_description {
+    font-size: 1.1em;
+  }
+  .photo_main_mission {
+    width: 80vw;
+  }
+  .text_container {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 490px) {
+  .mission_title {
+    font-size: 0.9em;
+  }
+  .mission_description {
+    font-size: 1em;
+  }
+  .photo_main_mission {
+    width: 90vw;
+  }
+  .content_mission {
+    margin: 0 5vw;
+  }
+}
+@media screen and (max-width: 370px) {
+  .mission_title {
+    font-size: 0.7em;
+  }
 }

@@ -59,8 +59,27 @@ body {
     font-size: 22px;
   }
 }
+@media screen and (max-width: 770px) {
+  .trainers_title {
+    font-size: 22px;
+    padding: 60px 45px;
+  }
+}
 @media screen and (max-width: 700px) {
   .trainers_container {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .description_text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .trainers_title {
+    font-size: 20px;
+    padding: 60px 45px;
+  }
+  .description_text {
+    font-size: 16px;
   }
 }
