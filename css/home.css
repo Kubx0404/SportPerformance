@@ -1,3 +1,6 @@
+body {
+  height: auto;
+}
 .content_mission {
   display: flex;
   align-items: center;

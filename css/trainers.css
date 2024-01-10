@@ -55,6 +55,9 @@ body {
   .trainers_container {
     grid-template-columns: repeat(2, 1fr);
   }
+  .description_text {
+    font-size: 22px;
+  }
 }
 @media screen and (max-width: 700px) {
   .trainers_container {

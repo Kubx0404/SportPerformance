@@ -36,14 +36,65 @@ body {
   width: 100vw;
   /* min-height: 100vh; */
   height: 100%;
+  /* overflow: hidden; */
+}
+.menu_button {
+  display: none;
+  cursor: pointer;
+}
+.menu {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  display: none;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 20px -4px rgba(23, 24, 24, 0.12),
+    0px 3px 6px -3px rgba(23, 24, 24, 0.08);
+  border-radius: 8px;
+  padding: 12px 0px 16px 0px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
+.menu li {
+  padding: 10px;
+  text-align: left;
+  margin: 3px 8px 3px 8px;
+  font-family: "Lato", sans-serif;
+}
+.menu li:first-child {
+  text-align: right;
+  font-family: "Mokoto", sans-serif;
+  font-size: 12px;
+  font-weight: 400px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.menu a:hover {
+  color: #838383;
+}
+.menu.show {
+  display: block;
+  opacity: 1;
+}
 .navigationDesktop {
   padding: 10px;
+  display: flex;
+  align-items: center;
 }
 .navButton {
   all: unset;
-  padding: 8px;
+  padding: 12px 8px 8px 8px;
   font-family: Mokoto;
   color: black;
   font-size: 16px;
@@ -53,7 +104,7 @@ nav a {
   font-family: "Mokoto", sans-serif;
   font-weight: 400;
   color: black;
-  padding: 8px;
+  padding: 12px 8px 8px 8px;
 }
 .mokoto {
   font-family: "Mokoto", sans-serif;
@@ -73,6 +124,7 @@ nav a {
   justify-content: space-between;
   padding: 5px;
   box-shadow: 0px 2px 2px -1px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
 }
 .logo_header {
   margin: 4px;
@@ -83,6 +135,7 @@ nav a {
   background-position: center top;
   height: 90%;
   background-size: contain;
+  overflow: auto;
 }
 .menu_underlined {
   text-decoration: underline;
@@ -116,4 +169,16 @@ input[type="button"] {
 }
 .uppercase {
   text-transform: uppercase;
+}
+.bold {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1440px) {
+  .navigationDesktop {
+    display: none;
+  }
+  .menu_button {
+    display: block;
+  }
 }

@@ -40,8 +40,9 @@
 }
 .icon_and_number p {
   font-family: "lato", sans-serif;
+  font-size: 20px;
 }
-.contact_phone_container h3 {
+.contact_phone_container h4 {
   text-align: center;
 }
 .address_container p {

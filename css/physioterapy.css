@@ -33,3 +33,11 @@
   align-items: stretch;
   width: 35em;
 }
+@media screen and (max-height: 600px) {
+  body {
+    height: auto;
+  }
+  .main {
+    padding: 60px 0px;
+  }
+}
