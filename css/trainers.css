@@ -50,7 +50,7 @@ body {
 .item a {
   color: transparent;
 }
-/* 
+
 @media screen and (max-width: 1060px) {
   .trainers_container {
     grid-template-columns: repeat(2, 1fr);
@@ -82,4 +82,4 @@ body {
   .description_text {
     font-size: 16px;
   }
-} */
+}

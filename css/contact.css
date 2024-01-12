@@ -1,8 +1,9 @@
 .contact_title {
   margin: 0;
   text-align: center;
-  padding: 60px;
+  padding: 3em 2em 2em 2em;
   font-weight: 400;
+  font-size: 2em;
 }
 .icon_and_number {
   display: flex;
@@ -22,7 +23,8 @@
 }
 .map_and_address_container {
   display: flex;
-  margin: 30px 0 50px 0;
+  margin: 1.8em 0 2.5em 0;
+  padding-bottom: 2em;
 }
 .address_container {
   margin-top: 30px;
@@ -30,7 +32,6 @@
 }
 .localization_title {
   margin-left: 10px;
-  /* margin-bottom: 0; */
 }
 .localization_container {
   margin-top: 100px;
@@ -40,7 +41,7 @@
 }
 .icon_and_number p {
   font-family: "lato", sans-serif;
-  font-size: 20px;
+  font-size: 1.25em;
 }
 .contact_phone_container h4 {
   text-align: center;
@@ -55,32 +56,39 @@
     flex-direction: column;
   }
   .contact_phone_container div {
-    padding-bottom: 20px;
+    padding-bottom: 1em;
   }
+  
+  
 }
 
 @media screen and (max-width: 840px) {
-  .contact_and_localization_container {
-    margin: 60px 0px;
-  }
+  
   .localization_title {
     text-align: center;
+    margin-left: 0;
   }
   .map_and_address_container {
     flex-direction: column-reverse;
     align-items: center;
+    margin-top: 0;
   }
   .address_container img {
     display: none;
+  }
+  body {
+    font-size: 12px;
+  }
+  .address_container{
+    margin-top: 0;
   }
 }
 @media screen and (max-width: 550px) {
   .contact_title {
     padding-bottom: 0px;
+    font-size: 1.6em;
   }
-  .localization_title {
-    font-size: 14px;
-  }
+  
   .localization_container {
     margin-top: 20px;
   }
