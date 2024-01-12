@@ -1,51 +1,54 @@
-body {
-  height: 90vh;
-}
 .content_mission {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-left: 10vw;
-  margin-right: 10vw;
   width: 100%;
 }
 .photo_main_mission {
-  width: 40em;
-  padding-top: 10em;
+  width: 35vw;
 }
 .main {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  min-height: 90%;
 }
 .mission_title {
   margin-bottom: 30px;
   text-align: center;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.8em;
+  font-size: 2.2em;
   white-space: nowrap;
+  font-family: Mokoto;
+  line-height: 20px;
 }
 .mission_description {
-  font-size: 24px;
+  font-size: 1.25em;
   color: #000;
   text-align: justify;
   font-family: "Lato", sans-serif;
-  font-size: 24px;
   font-style: normal;
   font-weight: 100;
-  line-height: 36px;
+  line-height: 1.9em;
 }
 .text_container {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  width: 36em;
+  width: 50vw;
 }
+
 @media screen and (max-width: 1525px) {
   .content_mission {
     margin: 0px 50px;
   }
 }
 @media screen and (max-width: 1345px) {
+  body{
+    font-size: 14px;
+  }
   .content_mission {
     flex-direction: column-reverse;
   }
@@ -55,23 +58,29 @@ body {
   }
   .photo_main_mission {
     padding-top: 0;
+    width: 70%;
   }
   .mission_title {
     margin: 4em 0px 2.5em 0px;
+    font-size: 1.8em;
+  }
+  .text_container{
+    width: 70%;
   }
 }
 @media screen and (max-width: 800px) {
-  .mission_title {
-    font-size: 1.2em;
+  body{
+    font-size: 12px;
   }
-  .mission_description {
-    font-size: 1.1em;
+  .mission_title{
+    font-size: 1.6em;
   }
   .photo_main_mission {
     width: 80vw;
   }
   .text_container {
     width: 80vw;
+    line-height: normal;
   }
 }
 @media screen and (max-width: 490px) {

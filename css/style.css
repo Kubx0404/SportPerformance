@@ -31,6 +31,16 @@ body {
   height: 100%;
   /* overflow: hidden; */
 }
+.background{
+  height: 90vh;
+  width: 100vw;
+  background-image: url("../images/logo_background.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: fixed;
+  background-size: contain;
+  z-index: -1;
+}
 .menu_button {
   display: none;
   cursor: pointer;
@@ -114,15 +124,15 @@ nav a {
 .logo_header {
   margin: 4px;
 }
-.main {
+/* .main {
   background-image: url("../images/logo_background.svg");
   background-repeat: no-repeat;
   background-position: center top;
-  /* height: 90%; */
+
   height: auto;
   background-size: contain;
   overflow: auto;
-}
+} */
 .menu_underlined {
   text-decoration: underline;
   color: var(--Interactive-Pressed, #103262);

@@ -1,13 +1,3 @@
-  .background{
-    height: 90vh;
-    width: 100vw;
-    background-image: url("../images/logo_background.svg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    position: fixed;
-    background-size: contain;
-    z-index: -1;
-  }
   .products_container{
     display: flex;
     justify-content: space-between;
