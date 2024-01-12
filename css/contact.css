@@ -45,6 +45,7 @@
 }
 .contact_phone_container h4 {
   text-align: center;
+  font-weight: 400;
 }
 .address_container p {
   font-family: "Lato", sans-serif;
@@ -67,6 +68,7 @@
   .localization_title {
     text-align: center;
     margin-left: 0;
+    font-weight: 400;
   }
   .map_and_address_container {
     flex-direction: column-reverse;
