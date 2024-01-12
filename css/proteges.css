@@ -12,7 +12,6 @@ body {
   grid-template-columns: repeat(6, 1fr);
   gap: 10px;
 }
-
 .item {
   width: auto;
   height: 250px;
@@ -30,18 +29,6 @@ body {
   padding-bottom: 40px;
   background-size: auto;
 }
-
-/* .shields_container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.item {
-  flex: 1 1 calc(16.66% - 10px); 
-  height: auto;
-  width: 100px;
-} */
 
 @media screen and (max-width: 1460px) {
   .shields_container {
@@ -74,7 +61,6 @@ body {
   .main {
     margin-right: 10px;
     margin-left: 0px;
-    /* padding-bottom: 40px  */
   }
   .proteges_title {
     font-size: 20px;

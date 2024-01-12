@@ -7,32 +7,35 @@
   width: 100%;
 }
 .photo_main_physioterapy {
-  width: 30em;
+  width: 30vw;
   height: fit-content;
 }
 .main {
   display: flex;
-  height: 90%;
+  min-height: 90%;
+  height: auto;
 }
 .physioterapy_title {
   margin-bottom: 30px;
   text-align: center;
+  font-size: 2.2em;
+  line-height: 2em;
 }
+
 .physioterapy_description {
+  font-size: 1.25em;
   color: #000;
   text-align: justify;
-  font-family: Lato;
-  font-size: 24px;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 100;
-  line-height: 36px;
+  line-height: 1.8em;
 }
 .text_container {
-  /* padding: 111px 79px 168px 75px; */
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  width: 35em;
+  width: 35vw;
 }
 .physio_button {
   color: white;
@@ -45,52 +48,34 @@
   padding-left: 5em;
   margin: 50px 100px;
 }
-@media screen and (max-height: 600px) {
-  body {
-    height: auto;
-  }
-  .main {
-    padding: 60px 0px;
-  }
-}
 
-@media screen and (max-width: 1525px) {
-  .content_physioterapy {
-    margin: 0px 50px;
-  }
-}
-@media screen and (max-width: 1345px) {
+
+@media screen and (max-width: 1245px) {
   .content_physioterapy {
     flex-direction: column;
   }
-  .main {
-    height: auto;
-    background-size: auto;
-  }
-  .photo_main_physioterapy {
-    padding-top: 0;
+  .text_container{
+    width: 70%;
   }
   .physioterapy_title {
-    margin: 4em 0px 2.5em 0px;
+    margin: 4em 0 2.5em 0;
+    font-size: 2em;
   }
-}
-@media screen and (max-width: 950px) {
-  .main {
-    background-size: contain;
+  .photo_main_physioterapy{
+    width: 75%;
+    padding-top: 0;
+
   }
 }
 @media screen and (max-width: 800px) {
-  .physioterapy_title {
-    font-size: 1.2em;
+  body {
+    font-size: 16px;
   }
-  .physioterapy_description {
-    font-size: 1.1em;
+  .physioterapy_description{
+    line-height: 1.6em;
   }
-  .photo_main_physioterapy {
-    width: 80vw;
-  }
-  .text_container {
-    width: 80vw;
+  .text_container{
+    width: 85%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -98,23 +83,16 @@
     margin: 5vw;
     padding: 0 5vw;
   }
+  body {
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 490px) {
-  .physioterapy_title {
-    font-size: 0.9em;
-  }
-  .physioterapy_description {
-    font-size: 1em;
-  }
-  .photo_main_physioterapy {
-    width: 90vw;
-  }
+
   .content_physioterapy {
     margin: 0 5vw;
   }
-}
-@media screen and (max-width: 370px) {
-  .physioterapy_title {
-    font-size: 0.7em;
+  .physioterapy_title{
+    font-size: 1.6em;
   }
 }
