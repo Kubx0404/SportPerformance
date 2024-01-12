@@ -1,6 +1,6 @@
 .timetable_title {
   text-align: center;
-  padding: 60px 60px 0 60px;
+  padding: 60px 10px 0 10px;
   margin: 0;
   font-weight: 400;
 }
@@ -41,25 +41,49 @@ tr td:first-child {
   flex-direction: column;
   align-items: center;
   height: fit-content;
+  overflow-x: auto;
 }
 @media screen and (max-width: 1120px) {
   table {
     align-self: flex-start;
     margin: 40px 60px;
   }
+  .timetable_title{
+    font-size: 1.4em;
+   }
 }
 @media screen and (max-width: 750px) {
-  .timetable_title {
-    font-size: 1.3em;
-  }
+ body {
+  font-size: 16px;
+ }
+ .timetable_title{
+  font-size: 1.3em;
+  
+ }
 }
 @media screen and (max-width: 530px) {
-  .timetable_title {
-    font-size: 1.1em;
+  body {
+    font-size: 14px;
+   }
+   .timetable_button{
+    width: 60%;
+    padding: 0;
+   }
+   td, th {
+    font-size: 1.3em;
   }
+  .timetable_title{
+    font-size: 1.2em;
+    
+   }
+  
 }
 @media screen and (max-width: 460px) {
-  .timetable_title {
+  body {
+    font-size: 14px;
+   }
+   .timetable_title{
     font-size: 1.1em;
-  }
+    
+   }
 }
