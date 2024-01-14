@@ -1,7 +1,7 @@
 body {
   height: auto;
 }
-.trainers_title {
+.workers_title {
   text-align: center;
   padding: 60px;
   margin: 0;
@@ -9,29 +9,51 @@ body {
 }
 .trainers_container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 80px;
-  width: 70%;
+  grid-template-columns: repeat(2, 1fr);
+
+  width: 60%;
   margin-bottom: 40px;
 }
-
+.workers_titles {
+  display: flex;
+  justify-content: space-around;
+}
+.physio_container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 40%;
+  margin-bottom: 40px;
+}
+.physio_title {
+  width: 40%;
+  text-align: center;
+}
+.physio_title_2 {
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+.trainers_title {
+  width: 60%;
+  text-align: center;
+}
+.workers_container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
 .item {
-  width: auto;
+  width: 400px;
   display: flex;
   flex-direction: column;
   margin: auto;
-  padding: 10px;
+  padding: 3.75em;
 }
-.main {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-}
+
 .trainer_photo {
   width: 100%;
 }
-.trainer_button {
+.worker_button {
   color: white;
   border: 2px solid rgb(126, 126, 246);
   background-color: black;
@@ -40,46 +62,73 @@ body {
   margin: auto;
   height: 40px;
 }
-.trainer_icon {
+.worker_icon {
   height: 30px;
   margin-right: 15px;
 }
-.trainer_icons_container {
+.worker_icons_container {
   margin-top: 40px;
 }
 .item a {
   color: transparent;
 }
+.description_text {
+  font-size: 1.5em;
+}
 
-@media screen and (max-width: 1060px) {
-  .trainers_container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .description_text {
-    font-size: 22px;
+@media screen and (min-width: 1920px) {
+  .main {
+    margin-left: 15vw;
+    margin-right: 15vw;
   }
 }
-@media screen and (max-width: 770px) {
-  .trainers_title {
-    font-size: 22px;
-    padding: 60px 45px;
+@media screen and (max-width: 1350px) {
+  body {
+    font-size: 12px;
+  }
+  .item {
+    width: 300px;
   }
 }
-@media screen and (max-width: 700px) {
+
+@media screen and (max-width: 1000px) {
+  body {
+    font-size: 10px;
+  }
   .trainers_container {
     grid-template-columns: repeat(1, 1fr);
   }
-  .description_text {
-    font-size: 20px;
+  .trainers_title {
+    width: 50%;
+  }
+  .physio_title {
+    width: 50%;
+  }
+  .trainers_container {
+    width: 50%;
+  }
+  .physio_container {
+    width: 50%;
   }
 }
 
-@media screen and (max-width: 550px) {
-  .trainers_title {
-    font-size: 20px;
-    padding: 60px 45px;
+@media screen and (max-width: 600px) {
+  .item {
+    width: 260px;
   }
-  .description_text {
-    font-size: 16px;
+}
+@media screen and (max-width: 530px) {
+  .workers_container {
+    flex-direction: column;
+  }
+  .physio_title {
+    display: none;
+  }
+  .trainers_container,
+  .physio_container {
+    width: 100%;
+  }
+  .physio_title_2 {
+    display: block;
   }
 }
