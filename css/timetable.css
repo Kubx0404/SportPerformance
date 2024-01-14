@@ -41,8 +41,10 @@ tr td:first-child {
   flex-direction: column;
   align-items: center;
   height: fit-content;
-  overflow-x: auto;
+  overflow-x: overlay;
+  
 }
+
 @media screen and (max-width: 1120px) {
   table {
     align-self: flex-start;
@@ -51,6 +53,8 @@ tr td:first-child {
   .timetable_title{
     font-size: 1.4em;
    }
+
+   
 }
 @media screen and (max-width: 750px) {
  body {
@@ -58,7 +62,6 @@ tr td:first-child {
  }
  .timetable_title{
   font-size: 1.3em;
-  
  }
 }
 @media screen and (max-width: 530px) {

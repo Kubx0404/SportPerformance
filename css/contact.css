@@ -34,10 +34,10 @@
   margin-left: 10px;
 }
 .localization_container {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 .contact_and_localization_container {
-  margin: 60px 20vw 40px 20vw;
+  margin: 15px 20vw 40px 20vw;
 }
 .icon_and_number p {
   font-family: "lato", sans-serif;
@@ -102,5 +102,12 @@
   }
   .address_container p {
     margin: 10px 0;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .main {
+      margin-left: 5vw;
+      margin-right: 5vw;
   }
 }

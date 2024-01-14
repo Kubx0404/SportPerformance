@@ -29,7 +29,8 @@ body {
   width: 100vw;
   /* min-height: 100vh; */
   height: 100%;
-  /* overflow: hidden; */
+  overflow-x: hidden;
+  overflow-y: overlay
 }
 .background{
   height: 90vh;
@@ -44,6 +45,7 @@ body {
 .menu_button {
   display: none;
   cursor: pointer;
+  padding: 10px;
 }
 .menu {
   position: absolute;
