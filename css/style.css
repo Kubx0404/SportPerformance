@@ -30,9 +30,9 @@ body {
   /* min-height: 100vh; */
   height: 100%;
   overflow-x: hidden;
-  overflow-y: overlay
+  overflow-y: overlay;
 }
-.background{
+.background {
   height: 90vh;
   width: 100vw;
   background-image: url("../images/logo_background.svg");
@@ -46,6 +46,9 @@ body {
   display: none;
   cursor: pointer;
   padding: 10px;
+}
+.header_icon {
+  height: 75px;
 }
 .menu {
   position: absolute;
@@ -166,8 +169,12 @@ input[type="button"] {
     display: block;
   }
 }
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: Mokoto, sans-serif;
+  font-weight: 400;
 }
 p {
   font-family: Lato, sans-serif;

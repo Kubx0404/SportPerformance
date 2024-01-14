@@ -27,15 +27,18 @@ body {
 .physio_title {
   width: 40%;
   text-align: center;
+  font-weight: 400;
 }
 .physio_title_2 {
   width: 100%;
   text-align: center;
   display: none;
+  font-weight: 400;
 }
 .trainers_title {
   width: 60%;
   text-align: center;
+  font-weight: 400;
 }
 .workers_container {
   display: flex;
