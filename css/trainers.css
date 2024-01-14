@@ -79,25 +79,24 @@ body {
   font-size: 1.5em;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1550px) {
   .main {
     margin-left: 15vw;
     margin-right: 15vw;
   }
+}
+@media screen and (max-width: 1800px) {
+  .item {
+    width: 370px;
+  }
+}
+@media screen and (max-width: 1600px) {
   .item {
     width: 350px;
   }
 }
-@media screen and (max-width: 1350px) {
-  body {
-    font-size: 12px;
-  }
-  .item {
-    width: 300px;
-  }
-}
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1070px) {
   body {
     font-size: 10px;
   }
