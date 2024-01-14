@@ -42,8 +42,8 @@
   background-color: black;
   border-radius: 5px;
   height: 40px;
-  padding-right: 5em;
-  padding-left: 5em;
+  /* padding-right: 2em;
+  padding-left: 2em; */
   margin: 50px 100px;
 }
 
